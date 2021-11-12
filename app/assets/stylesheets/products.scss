@@ -40,6 +40,18 @@ main section.categories-show {
         transition: all 0.3s;
       }
 
+      aside.sold-out-badge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 7px;
+        background-color: rgb(233, 158, 174);
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 4px;
+        font-size: 1.3em;
+        color: #eee;
+      }
+
       aside.price {
         position: absolute;
         top: 0;
