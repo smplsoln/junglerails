@@ -38,9 +38,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Application Screenshots
 
-- !["1_Create_appointment"](https://github.com/smplsoln/scheduler/blob/master/docs/1_Create_appointment.png)
-
-
 - !["1_Jungle_root.png"](https://github.com/smplsoln/junglerails/blob/master/docs/1_Jungle_root.png)
 - !["2_Sold_Out.png"](https://github.com/smplsoln/junglerails/blob/master/docs/2_Sold_Out.png)
 - !["3_Admin_category_created.png"](https://github.com/smplsoln/junglerails/blob/master/docs/3_Admin_category_created.png)
