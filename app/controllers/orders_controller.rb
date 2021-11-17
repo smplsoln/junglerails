@@ -15,7 +15,7 @@ class OrdersController < ApplicationController
       empty_cart!
       redirect_to order, notice: 'Your Order has been placed.'
     else
-      redirect_to cart_path, flash: { error: order.errors.full_messages.first }
+      redirect_to cart_path, flash: { error: order.errors.full_messages.to_s }
     end
 
   rescue Stripe::CardError => e

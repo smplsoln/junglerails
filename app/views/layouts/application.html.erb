@@ -11,7 +11,19 @@
   <%= render 'layouts/top_nav' %>
 
   <main class="container">
+    <% flash.each do |message_type, message| %>
+      <div class="flash-<%= message_type %>">
+        <h2><%= message %> </h2>
+      </div>
+    <% end %>
+
     <%= yield %>
+
+    <% flash.each do |message_type, message| %>
+      <div class="flash-<%= message_type %>">
+        <h2><%= message %> </h2>
+      </div>
+    <% end %>
   </main>
 
   <%= yield :end_of_body %>

@@ -9,7 +9,9 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      redirect_to '/signup'
+      puts "User " + user.inspect
+      puts "errors while trying to create user: " + user.errors.full_messages.to_s
+      redirect_to '/signup', flash: { error: user.errors.full_messages.first }
     end
   end
 
