@@ -47,6 +47,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - !["7_try_existing_email_signup.png"](https://github.com/smplsoln/junglerails/blob/master/docs/7_try_existing_email_signup.png)
 - !["8_existing_email_signup_rejected_with_msg_on_redirected_signup_page.png"](https://github.com/smplsoln/junglerails/blob/master/docs/8_existing_email_signup_rejected_with_msg_on_redirected_signup_page.png)
 - !["9_Hashed_password_digest_stored.png"](https://github.com/smplsoln/junglerails/blob/master/docs/9_Hashed_password_digest_stored.png)
-- !["10_My_cart_details_page_enhancements.png"](https://github.com/smplsoln/junglerails/blob/master/docs/10_My_cart_details_page_enhancements.png10_My_cart_details_page_enhancements.png)
-- !["11_Enhanced_Order_details_page.png"](https://github.com/smplsoln/junglerails/blob/master/docs/11_Enhanced_Order_details_page.png11_Enhanced_Order_details_page.png)
+- !["10_My_cart_details_page_enhancements.png"](https://github.com/smplsoln/junglerails/blob/master/docs/10_My_cart_details_page_enhancements.png)
+- !["11_Enhanced_Order_details_page.png"](https://github.com/smplsoln/junglerails/blob/master/docs/11_Enhanced_Order_details_page.png)
 - !["12_empty_cart__page_msg_ith_back_link.png"](https://github.com/smplsoln/junglerails/blob/master/docs/12_empty_cart__page_msg_ith_back_link.png)
